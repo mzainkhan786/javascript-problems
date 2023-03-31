@@ -1,3 +1,3 @@
-let ne = '    zain      ';
-let name = ne.trim();
-console.log(name.length);
+let name = '    zain      ';
+let removespace = name.trim();
+console.log(removespace.length);
