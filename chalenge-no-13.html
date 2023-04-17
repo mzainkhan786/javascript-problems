@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function getPositives(ar) {
+        return ar.filter((el) => el >= 0);
+      }
+
+      let ar = [-5, 10, -3, 12, -9, 5, 90, 0, 1];
+      let ar2 = getPositives(ar);
+      console.log(ar2);
+    </script>
+  </body>
+</html>
