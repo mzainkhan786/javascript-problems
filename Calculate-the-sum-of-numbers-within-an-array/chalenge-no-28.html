@@ -7,6 +7,12 @@
     <title>Document</title>
   </head>
   <body>
-    <script></script>
+    <script>
+      const isIsogram = (str) => {
+        const lowerStr = str.toLowerCase();
+        return str.length === new Set(lowerStr).size;
+      };
+      console.log(isIsogram('isogram')); // true
+    </script>
   </body>
 </html>
