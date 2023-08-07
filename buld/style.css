@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    background: cornflowerblue;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.next{
+    border-radius: 15px;
+    height: 750px; 
+    width: 650px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+.bulb{
+    height: 550px;
+    width: 420px;
+    /* margin: 2px auto; */
+}
+.bulb1{
+    height: 550px;
+    width: 420px;
+    /* margin: 2px auto; */
+}
+.on{
+    /* position: absolute; */
+    bottom: 3rem;
+    background: black;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    width: 150px;
+    /* left: 40%; */
+    cursor: pointer;
+     /* pointer */
+}
+.on1{
+    /* position: absolute; */
+    cursor: pointer;
+    bottom: 3rem;
+    background: black;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    width: 150px;
+    /* left: 40%; */
+}
+.hidden{
+    display: none;
+}
+.flex{
+    position: absolute;
+    width: 70%;
+    justify-content: space-between;
+    /* margin-bottom: 10px; */
+    margin: 0 10%;
+    display: flex;
+    bottom: 30px;
+}
